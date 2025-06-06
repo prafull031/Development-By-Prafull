@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Traveler's Booking Form</title>
+</head>
+<body>
+    <h2>Traveler's Booking Form</h2>
+    <form action="#" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"  required><br><br>
+        <label for="gender">Gender:</label>
+        <label for="male">Male</label>
+        <input type="radio" id="Male" name="gender" value="Male" >
+        <label for="Female">Female</label>
+        <input type="radio" id="Female" name="gender" value="Female"><br><br>
+
+
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination" required><br><br>
+
+        <label for="departure">Departure Date:</label>
+        <input type="date" id="departure" name="departure" required><br><br>
+
+        <label for="return">Return Date:</label>
+        <input type="date" id="return" name="return"><br><br>
+
+        <label for="package">Package Type:</label>
+        <select id="package" name="package">
+            <option value="standard">Standard</option>
+            <option value="premium">Premium</option>
+            <option value="luxury">Luxury</option>
+        </select><br><br>
+      
+
+        <label for="special">Special Requests:</label><br>
+        <textarea id="special" name="special" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
